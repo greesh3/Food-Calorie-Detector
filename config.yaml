@@ -1,0 +1,13 @@
+train: C:\Users\fathi\OneDrive\Desktop\CalorieDetector\train\images
+val: C:\Users\fathi\OneDrive\Desktop\CalorieDetector\valid\images
+test: C:\Users\fathi\OneDrive\Desktop\CalorieDetector\test\images
+
+nc: 18
+names: ['Aloogobi', 'Appam', 'Apple', 'Avial', 'Biriyani', 'Boiledegg', 'Burger', 'Chanamasala', 'Chappathi', 'Chicken', 'Chickencurry', 'Dosa', 'Fish fry', 'Frenchfries', 'Omelette', 'Pappadam', 'Pomgranate', 'Rice']
+
+roboflow:
+  workspace: indainfooddataset
+  project: indian_food_dataset
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/indainfooddataset/indian_food_dataset/3
